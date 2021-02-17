@@ -17,5 +17,5 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Project
 A major component of the course will be a project, where you select a quantum algorithms paper/topic not covered in class 
-and study it in greater detail.[Project Pdf](https://github.com/troyjlee/qalgo/PROJECT/project.pdf)
+and study it in greater detail.[Project Pdf](https://github.com/troyjlee/qalgo/tree/main/PROJECT/project.pdf)
 
