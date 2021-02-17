@@ -1,0 +1,142 @@
+\documentclass[12pt]{article}
+
+\usepackage{times}
+\usepackage{fullpage}
+\usepackage{amsfonts,amssymb,amsmath,amsthm}
+\usepackage{latexsym}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage[capitalise, nameinlink]{cleveref}
+\usepackage[pdftex]{color}
+
+
+\begin{document}
+\title{41174 Project}
+\date{}
+\maketitle
+
+\section*{Project Logistics}
+Projects can be done individually or in groups of up to 3 people.  I recommend that groups choose as many (related) papers as people in the group.  We will have a sign up sheet for 
+projects to avoid collisions and I would like everyone to choose a topic by March 19.  
+
+Projects will include both a written and oral part.  The writeup will in 3-10 pages describe background and context for the problem, the main results or algorithm of the paper, and any open directions 
+for further research.  You don't have to go through all the technical details in the writeup; imagine that you are explaining the results of the paper to a colleague at the whiteboard.  What 
+I would like to see is that you have absorbed the material and understand it in your own way, i.e.\ the writeup does not just reproducing what is said in the paper.  
+
+The presentations will be a 10-15 minute talk about the paper where you tell us the highlights of what you have found.  The writeup will be 80\% of the 
+score for the project and the presentation 20\%.  The writeup will be graded collectively for the group, and the presentation scored individually.  So in particular everyone from the group should 
+speak in the presentation.
+
+\paragraph*{Grading}
+\begin{itemize}
+  \item Project is 40\% of course grade.
+  \item 80\% of project grade will be based on the writeup, scored collectively for the group.
+  \item 20\% of the project grade will be based on the presentation, scored individually.
+\end{itemize}
+
+\paragraph*{Due Dates}
+\begin{itemize}
+  \item March 19: Project Selection 
+  \item April 23: 1 page summary of topic
+  \item May 14: Written report due
+  \item May 21: Presentations in class.  Depending on the number of presentations some may have to go on May 14 as well.
+\end{itemize}
+
+
+\section*{Project suggestions}
+Below I provide a list of some project suggestions.  You are free to choose your own or add papers around a certain topic.  You can also take a look at the 
+\href{https://quantumalgorithmzoo.org/}{Quantum Algorithm Zoo} for ideas.  
+
+\paragraph*{Algorithm related papers from QIP 2021}
+\begin{itemize}
+  \item \href{https://arxiv.org/abs/2010.12629}{Degree vs. Approximate Degree and Quantum Implications of Huang's Sensitivity Theorem}, Scott Aaronson, Shalev Ben-David, Robin Kothari, Shravas Rao, Avishay Tal.
+  \item \href{https://arxiv.org/abs/2010.01801}{No quantum speedup over gradient descent for non-smooth convex optimization}, Ankit Garg, Robin Kothari, Praneeth Netrapalli, Suhail Sherif.
+  \item \href{https://arxiv.org/abs/2011.03494}{Even more efficient quantum computations of chemistry through tensor hypercontraction}, Joonho Lee, Dominic W. Berry, Craig Gidney, William J. Huggins, Jarrod R. McClean, Nathan Wiebe, Ryan Babbush.
+  \item \href{https://arxiv.org/abs/1910.08187}{The Quantum Approximate Optimization Algorithm and the Sherrington-Kirkpatrick Model at Infinite Size} Edward Farhi, Jeffrey Goldstone, Sam Gutmann, Leo Zhou.
+  \item \href{https://arxiv.org/abs/2007.10253}{Quantum algorithms for escaping from saddle points}, Chenyi Zhang, Jiaqi Leng, Tongyang Li.
+  \item \href{https://arxiv.org/abs/2006.02660}{Hamiltonian simulation in the low energy subspace}, Burak \c{S}ahino\u{g}lu, Rolando D. Somma.
+  \item \href{https://arxiv.org/abs/2008.07003}{$k$-Forrelation Optimally Separates Quantum and Classical Query Complexity}, Nikhil Bansal, Makrand Sinha.
+  \item \href{https://arxiv.org/abs/1911.07306}{Quantum Speedup for Graph Sparsification, Cut Approximation and Laplacian Solving}, Simon Apers, Ronald de Wolf.
+  \item \href{https://arxiv.org/abs/2011.09823}{Quantum complexity of minimum cut}, Simon Apers, Troy Lee.
+  \item \href{https://arxiv.org/abs/2007.08285}{Quantum algorithms for graph problems with cut queries}, Troy Lee, Miklos Santha, Shengyu Zhang.
+  \item \href{https://arxiv.org/abs/2011.09495}{(Sub)Exponential advantage of adiabatic quantum computation with no sign problem}, Andr\'{a}s Gily\'{e}n, Umesh Vazirani.
+  \item \href{https://arxiv.org/abs/2006.12760}{Symmetries, graph properties, and quantum speedups}, Shalev Ben-David, Andrew M. Childs, Andr\'{a}s Gily\'{e}n, William Kretschmer, Supartha Podder, Daochen Wang.  Builds on: 
+  \href{https://arxiv.org/abs/1810.01790}{A note on the quantum query complexity of permutation symmetric functions}, Andr\'{e} Chailloux.
+\end{itemize}
+
+\paragraph*{Query Complexity}
+\begin{itemize}
+  \item \href{https://arxiv.org/abs/1410.0932}{Upper bounds on quantum query complexity inspired by the Elitzur-Vaidman bomb tester}, Cedric Yen-Yu Lin, Han-Hsuan Lin.  
+  \item \href{https://arxiv.org/abs/1105.4024}{Span programs for functions with constant-sized 1-certificates}, Aleksandrs Belovs.  Pioneered the ``learning graphs'' method 
+  for designing query algorithms.
+  \item \href{https://arxiv.org/abs/1112.5855}{Improving Quantum Query Complexity of Boolean Matrix Multiplication Using Graph Collision}, Stacey Jeffery, Robin Kothari, Fr\'{e}d\'{e}ric Magniez.
+\end{itemize}
+
+\paragraph*{Graph Algorithms}
+\begin{itemize}
+  \item \href{https://arxiv.org/abs/1407.0085}{Improved quantum algorithm for triangle finding via combinatorial Arguments}, Fran\c{c}ois Le Gall.
+  \item \href{https://arxiv.org/abs/1203.2603}{Span programs and quantum algorithms for st-connectivity and claw detection}, Aleksandrs Belovs and Ben Reichardt.
+  \item \href{https://arxiv.org/abs/1011.1443}{Quantum query complexity of minor-closed graph properties}, Andrew M. Childs, Robin Kothari.
+  \item \href{https://arxiv.org/abs/2010.02324}{A Query-Efficient Quantum Algorithm for Maximum Matching on General Graphs}, Shelby Kimmel, R. Teal Witter.  Builds on: 
+  \href{https://arxiv.org/abs/1905.13095}{Quantum Speedup Based on Classical Decision Trees}, Salman Beigi, Leila Taghavi.
+  \item \href{https://arxiv.org/abs/quant-ph/0401091}{Quantum query complexity of some graph problems}, Christoph Durr, Mark Heiligman, Peter Hoyer, Mehdi Mhalla.
+  \item \href{https://arxiv.org/abs/quant-ph/0508205}{Quantum Algorithms for Matching and Network Flows}, Andris Ambainis, Robert Spalek.
+\end{itemize}
+
+\paragraph*{Quantum walks}
+\begin{itemize}
+  \item \href{https://arxiv.org/abs/1912.04233}{A Unified Framework of Quantum Walk Search}, Simon Apers, Andr\'{a}s Gily\'{e}n, Stacey Jeffery.
+  \item \href{https://arxiv.org/abs/quant-ph/0506265}{Quantum complexity of testing group commutativity}, Fr\'{e}d\'{e}ric Magniez, Ashwin Nayak.
+  \item \href{https://arxiv.org/abs/quant-ph/0209131}{Exponential algorithmic speedup by quantum walk}, Andrew M. Childs, Richard Cleve, Enrico Deotto, Edward Farhi, Sam Gutmann, Daniel A. Spielman.
+  \item \href{https://arxiv.org/abs/quant-ph/0409035}{Quantum Verification of Matrix Products}, Harry Buhrman, Robert Spalek.
+  \item \href{https://arxiv.org/abs/1903.07493}{Quadratic speedup for finding marked vertices by quantum walks}, Andris Ambainis, András Gilyén, Stacey Jeffery, Martins Kokainis.
+\end{itemize}
+
+\paragraph*{Hidden subgroup problem}
+\begin{itemize}
+  \item \href{https://arxiv.org/abs/quant-ph/0302112}{A subexponential-time quantum algorithm for the dihedral hidden subgroup problem}, Greg Kuperberg.
+  \item \href{https://arxiv.org/abs/cs/0304005}{Quantum Computation and Lattice Problems}, Oded Regev.
+  \item \href{https://dl.acm.org/doi/10.1145/509907.510001}{Polynomial-time quantum algorithms for Pell's equation and the principal ideal problem}, Sean Hallgren.
+\end{itemize}
+
+\paragraph*{Linear Algebra}
+\begin{itemize}
+  \item \href{https://arxiv.org/abs/1511.02306}{Quantum algorithm for systems of linear equations with exponentially improved dependence on precision}, Andrew M. Childs, Robin Kothari, Rolando D. Somma.
+  \item \href{https://arxiv.org/abs/2009.07268}{An improved quantum-inspired algorithm for linear regression}, Andr\'{a}s Gily\'{e}n, Zhao Song, Ewin Tang
+\end{itemize}
+
+\paragraph*{Optimization}
+\begin{itemize}
+  \item \href{https://arxiv.org/abs/1809.00643}{Convex optimization using quantum oracles}, Joran van Apeldoorn, Andr\'{a}s Gily\'{e}n, Sander Gribling, Ronald de Wolf.
+  \item \href{https://arxiv.org/abs/1809.01731}{Quantum algorithms and lower bounds for convex optimization}, Shouvanik Chakrabarti, Andrew M. Childs, Tongyang Li, Xiaodi Wu.
+  \item \href{https://arxiv.org/abs/1705.01843}{Quantum SDP-Solvers: Better upper and lower bounds}, Joran van Apeldoorn, András Gilyén, Sander Gribling, Ronald de Wolf.
+  \item \href{https://arxiv.org/abs/1904.03180}{Quantum algorithms for zero-sum games}, Joran van Apeldoorn, Andr\'{a}s Gily\'{e}n.
+\end{itemize}
+
+\paragraph*{Quantum Simulation}
+\begin{itemize}
+  \item \href{https://arxiv.org/abs/1801.03922}{Quantum algorithm for simulating real time evolution of lattice Hamiltonians}, Jeongwan Haah, Matthew B. Hastings, Robin Kothari, Guang Hao Low.
+  \item \href{https://arxiv.org/abs/1807.03967}{Hamiltonian simulation with nearly optimal dependence on spectral norm}, Guang Hao Low. 
+  \item \href{https://arxiv.org/abs/1912.08854}{A Theory of Trotter Error}, Andrew M. Childs, Yuan Su, Minh C. Tran, Nathan Wiebe, Shuchen Zhu.
+\end{itemize}
+
+\paragraph*{Other}
+\begin{itemize}
+  \item \href{https://arxiv.org/abs/1807.05209}{Quantum Speedups for Exponential-Time Dynamic Programming Algorithms}, Andris Ambainis, Kaspars Balodis, J\={a}nis Iraids, Martins Kokainis, Kri\v{s}j\={a}nis Pr\={u}sis, Jevg\={e}nijs Vihrovs.
+\end{itemize}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
