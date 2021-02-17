@@ -29,6 +29,6 @@ over zoom by appointment.
 
 ### Project
 A major component of the course will be a project, where you select a quantum algorithms paper/topic not covered in class 
-and study it in greater detail.  [Here](https://github.com/troyjlee/qalgo/tree/main/PROJECT/project.pdf) are some suggested 
+and study it in greater detail.  Projects can be done individually or in groups of up to 3 people.  [Here](https://github.com/troyjlee/qalgo/tree/main/PROJECT/project.pdf) are more details and some suggested 
 project topics.
 
