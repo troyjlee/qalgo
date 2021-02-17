@@ -1,22 +1,25 @@
 ## Quantum Algorithms 41174
 
-Welcome to Quantum Algorithms!  All the information for the course can be found on this page.
+Welcome to Quantum Algorithms!  All the information for the course can be found on this page.  
+All lectures will take place Fridays from 15:00-18:00 on zoom.  Office hours will be held 
+over zoom by appointment.
 
 
 ### Lectures
 
-1. [Quantum circuit model](https://github.com/troyjlee/qalgo/tree/main/LECTURES/lec1.pdf)
-2. Fourier transform and phase estimation
-3. Period finding and Shor's algorithm
-4. Hidden subgroup problem
-5. Grover's search algorithm
-6. Quantum query complexity
-7. Lower bounds on quantum query complexity
-8. Quantum walks
-9. Hamiltonian simulation
-10. Solving systems of linear equations
-11. Quantum complexity theory
-12. Project Presentations
+1. 26 Feb: [Quantum circuit model](https://github.com/troyjlee/qalgo/tree/main/LECTURES/lec1.pdf)
+2. 5 Mar: Fourier transform and phase estimation
+3. 12 Mar: Period finding and Shor's algorithm
+4. 19 Mar: Hidden subgroup problem
+5. 26 Mar: Grover's search algorithm
+6. 2 Apr: Quantum query complexity
+7. 9 Apr: Study vacation, no lecture
+8. Lower bounds on quantum query complexity
+9. Quantum walks
+10. Hamiltonian simulation
+11. Solving systems of linear equations
+12. Quantum complexity theory
+13. Project Presentations
 
 ### Problem Sets
 1. Problem Set 1: Due 12 March 2021
@@ -26,5 +29,6 @@ Welcome to Quantum Algorithms!  All the information for the course can be found 
 
 ### Project
 A major component of the course will be a project, where you select a quantum algorithms paper/topic not covered in class 
-and study it in greater detail.[Project Pdf](https://github.com/troyjlee/qalgo/tree/main/PROJECT/project.pdf)
+and study it in greater detail.  [Here](https://github.com/troyjlee/qalgo/tree/main/PROJECT/project.pdf) are some suggested 
+project topics.
 
