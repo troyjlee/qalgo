@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## Quantum Algorithms 41174
 
-You can use the [editor on GitHub](https://github.com/troyjlee/qalgo/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Welcome to Quantum Algorithms!  All the information for the course can be found on this page.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
+### Lectures
 
 1. Numbered
 2. List
 
-**Bold** and _Italic_ and `Code` text
+### Problem Sets
+1. Problem Set 1: Due 12 March 2021
+2. Problem Set 2: Due 2 April 2021
+3. Problem Set 3: Due 30 April 2021
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Project
+A major component of the course will be a project, where you select a quantum algorithms paper/topic not covered in class 
+and study it in greater detail.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/troyjlee/qalgo/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
