@@ -14,12 +14,12 @@ over zoom by appointment.
 5. 26 Mar: Grover's search algorithm
 6. 2 Apr: Quantum query complexity
 7. 9 Apr: Study vacation, no lecture
-8. Lower bounds on quantum query complexity
-9. Quantum walks
-10. Hamiltonian simulation
-11. Solving systems of linear equations
-12. Quantum complexity theory
-13. Project Presentations
+8. 16 Apr: Lower bounds on quantum query complexity
+9. 23 Apr: Quantum walks
+10. 30 Apr: Hamiltonian simulation
+11. 7 May: Solving systems of linear equations
+12. 14 May: Quantum complexity theory
+13. 21 May: Project Presentations
 
 ### Problem Sets
 1. Problem Set 1: Due 12 March 2021
