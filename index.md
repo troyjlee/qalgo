@@ -1,7 +1,7 @@
 ## Quantum Algorithms 41174
 
 Welcome to Quantum Algorithms!  All the information for the course can be found on this page.  
-All lectures will take place Fridays from 15:00-18:00 on zoom.  Office hours will be held 
+Lectures will take place Fridays from 15:00-18:00 on zoom.  Office hours will be held 
 over zoom by appointment.
 
 
@@ -29,6 +29,6 @@ over zoom by appointment.
 
 ### Project
 A major component of the course will be a project, where you select a quantum algorithms paper/topic not covered in class 
-and study it in greater detail.  Projects can be done individually or in groups of up to 3 people.  [Here](https://github.com/troyjlee/qalgo/tree/main/PROJECT/project.pdf) are more details and some suggested 
+and study it in greater detail.  Projects can be done individually or in groups of up to 3 people.  [Here](PROJECT/project.pdf) are more details and some suggested 
 project topics.
 
