@@ -7,7 +7,7 @@ over zoom by appointment.
 
 ### Lectures
 
-1. 26 Feb: [Quantum circuit model](https://github.com/troyjlee/qalgo/tree/main/LECTURES/lec1.pdf)
+1. 26 Feb: [Quantum circuit model](LECTURES/lec1.pdf)
 2. 5 Mar: Fourier transform and phase estimation
 3. 12 Mar: Period finding and Shor's algorithm
 4. 19 Mar: Hidden subgroup problem
