@@ -7,7 +7,7 @@ over zoom by appointment.
 
 ### Lectures
 
-1. 26 Feb: [Quantum circuit model](LECTURES/lec1.pdf)
+1. 26 Feb: [Quantum circuit model](https://github.com/troyjlee/qalgo/blob/main/LECTURES/lec1.pdf)
 2. 5 Mar: Fourier transform and phase estimation
 3. 12 Mar: Period finding and Shor's algorithm
 4. 19 Mar: Hidden subgroup problem
@@ -22,13 +22,14 @@ over zoom by appointment.
 13. 21 May: Project Presentations
 
 ### Problem Sets
-1. [Problem Set 1](PSETS/PS1/ps1.pdf): Due 12 March 2021
+1. [Problem Set 1](https://github.com/troyjlee/qalgo/blob/main/PSETS/PS1/ps1.pdf): Due 12 March 2021
 2. Problem Set 2: Due 2 April 2021
 3. Problem Set 3: Due 30 April 2021
 
 
 ### Project
 A major component of the course will be a project, where you select a quantum algorithms paper/topic not covered in class 
-and study it in greater detail.  Projects can be done individually or in groups of up to 3 people.  [Here](PROJECT/project.pdf) are more details and some suggested 
+and study it in greater detail.  Projects can be done individually or in groups of up to 3 people.  
+[Here](https://github.com/troyjlee/qalgo/blob/main/PROJECT/project.pdf) are more details and some suggested 
 project topics.
 
