@@ -22,7 +22,7 @@ over zoom by appointment.
 13. 21 May: Project Presentations
 
 ### Problem Sets
-1. Problem Set 1: Due 12 March 2021
+1. [Problem Set 1](PSETS/PS1/ps1.pdf): Due 12 March 2021
 2. Problem Set 2: Due 2 April 2021
 3. Problem Set 3: Due 30 April 2021
 
