@@ -9,7 +9,7 @@ over zoom by appointment.
 
 1. 26 Feb: [Quantum circuit model](https://github.com/troyjlee/qalgo/blob/main/LECTURES/lec1.pdf)
 2. 5 Mar: [Fourier transform and phase estimation](https://github.com/troyjlee/qalgo/blob/main/LECTURES/lec2-compressed.pdf)
-3. 12 Mar: Period finding and Shor's algorithm
+3. 12 Mar: [Period finding and Shor's algorithm](https://github.com/troyjlee/qalgo/blob/main/LECTURES/lec3-compressed.pdf)
 4. 19 Mar: Hidden subgroup problem
 5. 26 Mar: Grover's search algorithm
 6. 2 Apr: Quantum query complexity
