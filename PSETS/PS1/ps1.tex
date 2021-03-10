@@ -1,4 +1,4 @@
-\input{header.tex}
+\input{../header.tex}
 
 \begin{document}
 \title{Problem Set 1}
@@ -60,8 +60,8 @@ that allows measurements during the computation.  A cleaner model for quantum ci
 This exercise is to show that quantum circuits with measurements deferred to the end can also simulate classical randomized circuits.
 
 More precisely, consider a randomized circuit $C$ using Toffoli gates with $n$ input wires, $c$ ancilla wires, $r$ coin toss wires, and $m$ output wires.  
-Give a quantum circuit $C'$ using Toffoli and Hadamard gates with $n$ input wires, $c+2r$ ancilla wires, and $m+r$ output wires, such that the probability
-distribution over the outcomes on the output wires of $C$ can be simulated by a measurement on $C'$.
+Give a quantum circuit $C'$ using Toffoli, Hadamard, and CNOT gates with $n$ input wires, $c+2r$ ancilla wires, and $m+r$ output wires, such that the probability
+distribution over the outcomes on the output wires of $C$ can be simulated by a measurement on $C'$.  Ancillas in $C'$ can be initialized to $\ket{0}$ or $\ket{1}$.  
 
 
 \paragraph*{6. Only real numbers} 
