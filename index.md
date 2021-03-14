@@ -12,8 +12,8 @@ over zoom by appointment.
 3. 12 Mar: [Period finding and Shor's algorithm](https://github.com/troyjlee/qalgo/blob/main/LECTURES/lec3-compressed.pdf)
 4. 19 Mar: Hidden subgroup problem
 5. 26 Mar: Grover's search algorithm
-6. 2 Apr: Quantum query complexity
-7. 9 Apr: Study vacation, no lecture
+6. 2 Apr: Good Friday, no lecture
+7. 9 Apr: Quantum query complexity
 8. 16 Apr: Lower bounds on quantum query complexity
 9. 23 Apr: Quantum walks
 10. 30 Apr: Hamiltonian simulation
@@ -22,8 +22,10 @@ over zoom by appointment.
 13. 21 May: Project Presentations
 
 ### Problem Sets
+Problem sets are due before lecture (3pm) on the stated day.  Late problem sets will be given 
+no credit.  The problem set component of the grade will be the average of your two best scores.
 1. [Problem Set 1](https://github.com/troyjlee/qalgo/blob/main/PSETS/PS1/ps1.pdf): Due 12 March 2021
-2. Problem Set 2: Due 2 April 2021
+2. Problem Set 2: Due 9 April 2021
 3. Problem Set 3: Due 30 April 2021
 
 
