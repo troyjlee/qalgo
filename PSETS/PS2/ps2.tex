@@ -41,8 +41,8 @@ continued fraction.
 Here is an algorithm to find such a representation.  Let $x$ be a positive rational number.  Then set 
 \begin{align*}
 a_0 = \floor{x}, &\quad x_1 = \frac{1}{x-a_0} \\
-a_1 = \floor{x_1}, &\quad x_2 = \frac{1}{x-a_1} \\
-a_2 = \floor{x_2}, &\quad x_3 = \frac{1}{x-a_2} \\
+a_1 = \floor{x_1}, &\quad x_2 = \frac{1}{x_1-a_1} \\
+a_2 = \floor{x_2}, &\quad x_3 = \frac{1}{x_2-a_2} \\
 &\cdots
 \end{align*}
 The essential principle at work here is that $x = a_0 + \frac{1}{a_1'}$ where $a_1' = \frac{1}{x-a_0}$.  Then 
