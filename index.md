@@ -36,3 +36,8 @@ and study it in greater detail.  Projects can be done individually or in groups 
 [Here](https://github.com/troyjlee/qalgo/blob/main/PROJECT/project.pdf) are more details and some suggested 
 project topics.
 
+Due dates:
+  - March 19: Project selection
+  - April 23: 1 page summary of topic
+  - May 14: Written report due
+  - May 21: Presentations in class
