@@ -13,6 +13,7 @@ over zoom by appointment.
 4. 19 Mar: [Hidden subgroup problem](https://github.com/troyjlee/qalgo/blob/main/LECTURES/lec4-compressed.pdf) 
     - [Tutorial activity](https://github.com/troyjlee/qalgo/blob/main/LECTURES/activity4.pdf)
 5. 26 Mar: [Grover's search algorithm](https://github.com/troyjlee/qalgo/blob/main/LECTURES/lec5_compressed.pdf)
+    - [Lecture notes](https://github.com/troyjlee/qalgo/blob/main/NOTES/grover.pdf) on Grover's algorithm
 6. 2 Apr: Good Friday, no lecture
 7. 9 Apr: Quantum query complexity
 8. 16 Apr: Lower bounds on quantum query complexity
