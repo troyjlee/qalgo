@@ -72,12 +72,13 @@ a continued fraction of an input number up to a given accuracy.
 \end{enumerate}
 
 \paragraph*{3. Factoring 21}
-Let's factor the number 21 using Shor's algorithm.
+Let's factor the number $M=21$ using Shor's algorithm.
 \begin{enumerate}
   \item List all numbers in $\Z_{21}$ that are relatively prime to $21$.  These are the elements of the multiplicative group $\Z_{21}^\times$.  Compute 
   the order $\ord_{21}(x)$ of all elements in $\Z_{21}^\times$.
-  \item Choose an $x \in \Z_{21}^\times$ with $\ord_{21}(x) = 6$.  See that $\gcd(x\pm 1, n)$ gives a nontrivial factor of $n$.
-  \item Now let's simulate finding the order of $f(j) = x^j \bmod{21}$ for the $x$ you chose in the last step.  Using the Octave FTperiod program 
+  \item Recall that in Shor's algorithm we want to find an $x$ of even order $d$ such that $x^{d/2} \ne -1 \mod M$.  Call such an $x$ \emph{good}. 
+  Identify all the good $x \in \Z_{21}^\times$ with $\ord_{21}(x) = 6$ and for these verify that $\gcd(x^3 \pm 1, 21)$ gives a nontrivial factor of $21$.
+  \item Choose a good $x$ of order $6$ from the previous step.  Now let's simulate finding the period of $f(j) = x^j \bmod{21}$.  Using the Octave FTperiod program 
   \footnote{Currently I have only added the sampling functionality to the Matlab/Octave program.  If I have time I will also add it to the python version.  
   Octave programs can be run online at \url{https://octave-online.net/}.}
   \url{https://github.com/troyjlee/qalgo/tree/main/CODE} with $N = 21^2, s=6$.  This simulates randomly sampling a state $\ket{g_t}$ and 
