@@ -15,7 +15,7 @@ over zoom by appointment.
 5. 26 Mar: [Grover's search algorithm](https://github.com/troyjlee/qalgo/blob/main/LECTURES/lec5_compressed.pdf)
     - [Lecture notes](https://github.com/troyjlee/qalgo/blob/main/NOTES/grover.pdf) on Grover's algorithm
 6. 2 Apr: Good Friday, no lecture
-7. 9 Apr: Quantum query complexity
+7. 9 Apr: [Quantum query complexity](https://github.com/troyjlee/qalgo/blob/main/LECTURES/lec6_compressed.pdf)
 8. 16 Apr: Lower bounds on quantum query complexity
 9. 23 Apr: Quantum walks
 10. 30 Apr: Hamiltonian simulation
