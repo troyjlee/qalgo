@@ -28,7 +28,7 @@ Problem sets are due before lecture (3pm) on the stated day.  Late problem sets 
 no credit.  The problem set component of the grade will be the average of your two best scores.
 1. [Problem Set 1](https://github.com/troyjlee/qalgo/blob/main/PSETS/PS1/ps1.pdf): Due 12 March 2021
 2. [Problem Set 2](https://github.com/troyjlee/qalgo/blob/main/PSETS/PS2/ps2.pdf): Due 9 April 2021
-3. Problem Set 3: Due 30 April 2021
+3. Problem Set 3: Due 7 May 2021
 
 
 ### Project
