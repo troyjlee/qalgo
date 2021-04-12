@@ -1,0 +1,99 @@
+\input{../header.tex}
+
+\begin{document}
+\title{Problem Set 3}
+\date{}
+\maketitle
+
+\paragraph*{1. Parity}
+$\PARITY_n : \{0,1\}^n \rightarrow \{0,1\}$ is the function where $\PARITY_n(x) =1$ iff the 
+number of ones in $x$ is odd.  
+\begin{enumerate}
+  \item Show that $\PARITY_2$ can be solved exactly with one quantum query.  Hint: This is just Deutsch-Josza.
+  \item Show that $\PARITY_n$ can be solved exactly with $\ceil{n/2}$ many quantum queries.  No need to write out 
+  circuits here, keep your description of the algorithm high level.
+  \item Use the polynomial method to prove that $Q_{1/3}(\PARITY_n) \ge \ceil{n/2}$.  
+\end{enumerate}
+
+\paragraph*{2. Dual polynomials}
+In lecture we only saw techniques to lower bound the approximate degree of \emph{symmetric} functions.  Proving 
+lower bounds on the approximate degree of functions which aren't symmetric is challenging.  One way to do this is by \emph{dual polynomials}, 
+which introduce here.  
+
+Let $f: \{-1,1\} \rightarrow \{0,1\}$.  
+Show that if there exists a function $g: \{-1,1\}^n \rightarrow \R$ with the properties
+\begin{enumerate}
+  \item $\sum_{x \in \{-1,1\}^n} g(x) f(x) > \frac{1}{3} \sum_{x \in \{-1,+1\}^n} |g(x)|$
+  \item $\sum_{x \in \{-1,1\}^n} g(x) \chi_S(x) = 0$ for all $S \subseteq \{1, \ldots, n\}$ with $|S| \le d$
+\end{enumerate}
+then $\deg_{1/3}(f) > d$.  
+
+In the dual polynomial method, one explicitly constructs a function $g$ satisfying these properties for as 
+large a $d$ as possible. 
+
+\paragraph*{3. Simple version of the adversary method}
+The Hamming distance $d_H(x,y)$ between two strings $x,y \in \{0,1\}^n$ is the number of positions on which they differ, 
+that is $d_H(x,y) = |x \oplus y|$.  
+
+Let $f : \{0,1\}^n \rightarrow \{0,1\}$.  Suppose that for every $x \in f^{-1}(0)$ there are at least $d_0$ many $y \in f^{-1}(1)$ 
+with $d_H(x,y) = 1$ and that for every $y \in f^{-1}(1)$ there are at least $d_1$ many $x \in f^{-1}(0)$ with $d_H(x,y) = 1$.  
+Show that the quantum adversary bound for $f$ is at least $\sqrt{d_0 d_1}$.  In other words, construct a $|f^{-1}(0)|$-by-$|f^{-1}(1)|$ 
+matrix $\Gamma$ with 
+\[
+\frac{\|\Gamma\|}{\max_{i \in \{1, \ldots, n\} } \|\Gamma \circ D_i\|} \ge \sqrt{d_0 d_1} \enspace .
+\]
+Hint: You can take all entries of $\Gamma$ to be in $\{0,1\}$.  Useful characterizations of the spectral norm of a matrix $A \in \R^{m \times n}$ include
+\begin{enumerate}
+  \item $\| A \| = \max_{v \in \R^n \atop \|v\| = 1} \|Av \|$
+  \item $\| A\| = \max_{u \in \R^m, v \in \R^n \atop \|u\| = \|v\| = 1} |u^T A v|$
+  \item $\| A \| = \sqrt{ \lambda_1(AA^T)}$ where $\lambda_1(B)$ is the largest eigenvalue of $B$.
+\end{enumerate}
+
+\paragraph*{4. Applying the simple adversary bound}
+\begin{enumerate}
+  \item Use the simple version of the adversary method to show that $Q_{1/3}(\PARITY_n) = \Omega(n)$.
+  \item For $n$ a positive integer and $1 \le k \le n$ let $\THRESH_{k,n}$ be a \emph{partial} Boolean function with domain $\{x \in \{0,1\}^n : |x| \in \{k-1, k\}\}$ 
+  and where $\THRESH_{k,n}(x) = 1$ iff $|x| = k$.  Use the simple version of the adversary method to show that $Q_{1/3}(f_{n,k}) = \Omega(\sqrt{k(n-k)})$.  
+  Give a quantum query algorithm to show that this lower bound is tight up to logarithmic factors (hint: use one of the algorithms from the last problem set).  
+\end{enumerate}
+
+\paragraph*{5. Not All Equal}
+Let $f: \{-1,1\}^3 \rightarrow \{-1,+1\}$ be the Not-All-Equal function, which evaluates to $-1$ on 
+input $x \in \{-1,1\}^3$ if not all the entries of $x$ are equal and evaluates to $1$ otherwise.  In other 
+words, it evaluates to $1$ on the two inputs $111, -1 -1 -1$, and evaluates to $-1$ otherwise.  
+\begin{enumerate}
+  \item Write $f$ as a polynomial.  What is its degree?
+  \item Show that any $1/3$-error approximating polynomial for $f$ has degree at least $2$.  
+  \item Give a 2 query quantum algorithm that computes $f$ with success probability $1$.
+  \item Challenge: Show that there is no quantum algorithm that computes $f$ with success probability $1$ 
+  using just 1 query.
+\end{enumerate}
+
+\paragraph*{6. Element Distinctness}
+Let $n$ be a positive integer and $M \ge n$.  Element distinctness $\ED_n : \{0, \ldots, M-1\}^n \rightarrow \{0,1\}$ is the function where 
+$\ED(x) = 1$ if $x_i \ne x_j$ for all $i,j \in \{1, \ldots, n\}$ with $i \ne j$ and $\ED(x) = 0$ otherwise.  In other words, $\ED(x)=1$ if all the 
+elements of $x$ are distinct.
+\begin{enumerate}
+  \item What is the success probability of the following algorithm: Form a set $S$ by choosing $k$ elements from $\{1, \ldots, n\}$ uniformly at random (with 
+  replacement) and then use Grover to search for $j \not \in S$ such that $x_j = x_i$ for some $i \in S$?
+  \item Use part~1 and amplitude amplification to show $Q_{1/3}(\ED_n) = O(n^{3/4})$.  See Section~1.1 of the lecture notes on Grover's algorithm for a description of 
+  amplitude amplification.
+\end{enumerate}
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
