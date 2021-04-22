@@ -18,7 +18,7 @@ over zoom by appointment.
 7. 9 Apr: [Quantum query complexity](https://github.com/troyjlee/qalgo/blob/main/LECTURES/lec6_compressed.pdf)
 8. 16 Apr: [Lower bounds on quantum query complexity](https://github.com/troyjlee/qalgo/blob/main/LECTURES/lec7.pdf)
     - [Lecture notes](https://github.com/troyjlee/qalgo/blob/main/NOTES/lower.pdf)
-9. 23 Apr: Quantum walks
+9. 23 Apr: [Quantum walks](https://github.com/troyjlee/qalgo/blob/main/LECTURES/lec8_compressed.pdf)
 10. 30 Apr: Hamiltonian simulation
 11. 7 May: Solving systems of linear equations
 12. 14 May: Quantum complexity theory
