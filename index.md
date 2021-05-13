@@ -21,7 +21,7 @@ over zoom by appointment.
 9. 23 Apr: [Quantum walks](https://github.com/troyjlee/qalgo/blob/main/LECTURES/lec8_compressed.pdf)
 10. 30 Apr: [Hamiltonian simulation](https://github.com/troyjlee/qalgo/blob/main/LECTURES/lec9.pdf) (Guest Lecture by Marika Kieferova)
 11. 7 May: [Solving systems of linear equations](https://github.com/troyjlee/qalgo/blob/main/LECTURES/lec10_compressed.pdf)
-12. 14 May: Quantum complexity theory
+12. 14 May: [Quantum complexity theory](https://github.com/troyjlee/qalgo/blob/main/LECTURES/lec11_compressed.pdf)
 13. 21 May: Project Presentations
 
 ### Problem Sets
